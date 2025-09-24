@@ -42,6 +42,6 @@ This C++ project implements a Monte Carlo simulation of stock prices using the G
 
 ## Resources Used
 
-* [Article: Investopedia](https://www.investopedia.com/terms/m/montecarlosimulation.asp)
-* [Article: Investopedia](https://www.investopedia.com/articles/07/montecarlo.asp)
+* [Article: Investopedia - Monte Carlo Simulation: What It Is, How It Works, History, 4 Key Steps](https://www.investopedia.com/terms/m/montecarlosimulation.asp)
+* [Article: Investopedia - How to Use Monte Carlo Simulation With GBM](https://www.investopedia.com/articles/07/montecarlo.asp)
 * This README.md file was written with the assistance of GPT-5.
