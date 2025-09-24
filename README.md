@@ -43,13 +43,13 @@ This C++ project implements a Monte Carlo simulation of stock prices using the G
 ## Example Run
 
 You can run the program with optional parameters: 
-`S0` = Initial stock price (default: 100)
-`mu` = Expected return (default: 0.08)
-`sigma` = Volatility (default: 0.2)
-`T` = Time horizon in years (default: 1)
-`steps` = Number of timesteps (default: 252)
-`paths` = Number of simulated paths (default: 10000)
-`seed` = RNG seed (default: random_device)
+`S0` = Initial stock price (default: 100) \
+`mu` = Expected return (default: 0.08) \
+`sigma` = Volatility (default: 0.2) \
+`T` = Time horizon in years (default: 1) \
+`steps` = Number of timesteps (default: 252) \
+`paths` = Number of simulated paths (default: 10000) \
+`seed` = RNG seed (default: random_device) \
 
 ### Sample Output:
 
