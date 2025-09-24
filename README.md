@@ -1,4 +1,4 @@
-# Monte Carlo Simulations in C++
+# Monte Carlo Simulations for Finance in C++
 
 ---
 
