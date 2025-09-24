@@ -39,3 +39,9 @@ This C++ project implements a Monte Carlo simulation of stock prices using the G
 * Displays a histogram of final simulated stock prices.  
 
 ---
+
+## Resources Used
+
+* [Article: Investopedia](https://www.investopedia.com/terms/m/montecarlosimulation.asp)
+* [Article: Investopedia](https://www.investopedia.com/articles/07/montecarlo.asp)
+* This README.md file was written with the assistance of GPT-5.
