@@ -63,7 +63,10 @@ Time elapsed: 9807.36 ms
 
 Two plots will appear:
 
+### Simulated Paths
 ![Simulated Paths](https://github.com/tavoakys/MonteCarloSimulation/blob/master/Monte_Carlo_Simulation_Paths.png)
+
+### Final Price Distribution
 ![Final Price Distribution](https://github.com/tavoakys/MonteCarloSimulation/blob/master/Final_Price_Distribution.png)
 
 ---
@@ -96,5 +99,5 @@ Check out the code [here](https://github.com/tavoakys/MonteCarloSimulation/blob/
 
 * [Article: Investopedia - Monte Carlo Simulation: What It Is, How It Works, History, 4 Key Steps](https://www.investopedia.com/terms/m/montecarlosimulation.asp)
 * [Article: Investopedia - How to Use Monte Carlo Simulation With GBM](https://www.investopedia.com/articles/07/montecarlo.asp)
-* [`matplotlib-cpp` library for visualization](https://github.com/lava/matplotlib-cpp)
+* `matplotlib-cpp` [library for visualization](https://github.com/lava/matplotlib-cpp)
 * This README.md file was written with the assistance of GPT-5.
