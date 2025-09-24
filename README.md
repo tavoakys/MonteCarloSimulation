@@ -40,8 +40,61 @@ This C++ project implements a Monte Carlo simulation of stock prices using the G
 
 ---
 
+## Example Run
+
+You can run the program with optional parameters: 
+`S0` = Initial stock price (default: 100)
+`mu` = Expected return (default: 0.08)
+`sigma` = Volatility (default: 0.2)
+`T` = Time horizon in years (default: 1)
+`steps` = Number of timesteps (default: 252)
+`paths` = Number of simulated paths (default: 10000)
+`seed` = RNG seed (default: random_device)
+
+### Sample Output:
+
+```
+=== Monte Carlo Simulation ===
+S0=100  mu=0.08  sigma=0.2  T=1  steps=252  paths=10000  seed=1961779376
+Average Final Price=108.466   Variance of Final Price=483.522
+
+Time elapsed: 9807.36 ms
+```
+
+Two plots will appear:
+
+![Simulated Paths](https://github.com/tavoakys/MonteCarloSimulation/blob/master/Monte_Carlo_Simulation_Paths.png)
+![Final Price Distribution](https://github.com/tavoakys/MonteCarloSimulation/blob/master/Final_Price_Distribution.png)
+
+---
+
+## Importance of Monte Carlo Simulations
+
+Monte Carlo simulations are powerful because they allow us to:
+* Model uncertainty – estimate outcomes where analytical solutions are impossible.
+* Perform risk analysis – evaluate volatility and tail risks in asset pricing.
+* Support decision making – help investors and risk managers plan under uncertainty.
+* Learn quantitatively – visualize stochastic processes and probability distributions.
+
+---
+
+## Skills Demonstrated
+
+This project highlights both programming and quantitative finance skills:
+* C++ fundamentals – command-line argument parsing, loops, condition checks.
+* Mathematical modeling – stochastic differential equations (GBM).
+* Data visualization – plotting with `matplotlib-cpp`.
+* Quant finance knowledge – understanding asset price dynamics and variance.
+
+This program is a simple example of applying quantitative finance models through programming.
+
+Check out the code [here](https://github.com/tavoakys/MonteCarloSimulation/blob/master/src/main.cpp).
+
+---
+
 ## Resources Used
 
 * [Article: Investopedia - Monte Carlo Simulation: What It Is, How It Works, History, 4 Key Steps](https://www.investopedia.com/terms/m/montecarlosimulation.asp)
 * [Article: Investopedia - How to Use Monte Carlo Simulation With GBM](https://www.investopedia.com/articles/07/montecarlo.asp)
+* [`matplotlib-cpp` library for visualization](https://github.com/lava/matplotlib-cpp)
 * This README.md file was written with the assistance of GPT-5.
